@@ -11,7 +11,10 @@ the trials and tribulations of Data Structures and Algorithms with ease.
 So don your wizard robes and grab your wand, because with ***Accio Algorithms***, you'll be casting spells of efficiency
 and solving problems in no time!
 
+## Data Structures
 
-
+| S. No. | Topic  | Blog/Theory                               | Notes                         |
+|--------|--------|-------------------------------------------|-------------------------------|
+| 1      | Arrays | [Arrays](https://redquark.org/dsa/arrays) | Also discusses dynamic arrays |
 
 

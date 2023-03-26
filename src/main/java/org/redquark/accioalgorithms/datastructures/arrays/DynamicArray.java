@@ -15,13 +15,16 @@ package org.redquark.accioalgorithms.datastructures.arrays;
  */
 public class DynamicArray {
 
-    // Internal JVM provided array to store elements in the array
+    // Internal array to store elements of the dynamic array
     private int[] elements;
     // Size of the array - it represents the current number of elements in the array
     private int size;
 
+    /**
+     * Constructor for initialization
+     */
     public DynamicArray(int capacity) {
-        // Initialize the array with the specified capacity
+        // Initialize the internal array with the specified capacity
         this.elements = new int[capacity];
         this.size = 0;
     }
@@ -77,15 +80,17 @@ public class DynamicArray {
             }
             elements = newArray;
         }
+        // Shifting elements after index to right by one step
         for (int i = size; i > index; i--) {
             elements[i] = elements[i - 1];
         }
+        // Setting the value to be inserted at the index
         elements[index] = value;
         size++;
     }
 
     /**
-     * Time complexity: O(1)
+     * Time complexity: O(n)
      *
      * @param value to be added at the end
      */
@@ -103,6 +108,7 @@ public class DynamicArray {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
         }
+        // Shifting values after index one step left
         int removedValue = elements[index];
         for (int i = index; i < size - 1; i++) {
             elements[i] = elements[i + 1];
@@ -111,4 +117,3 @@ public class DynamicArray {
         return removedValue;
     }
 }
-
