@@ -13,8 +13,9 @@ and solving problems in no time!
 
 ## Data Structures
 
-| S. No. | Topic  | Blog/Theory                               | Notes                         |
-|--------|--------|-------------------------------------------|-------------------------------|
-| 1      | Arrays | [Arrays](https://redquark.org/dsa/arrays) | Also discusses dynamic arrays |
+| S. No. | Topic              | Blog/Theory                                                        | Notes                         |
+|--------|--------------------|--------------------------------------------------------------------|-------------------------------|
+| 1      | Arrays             | [Arrays](https://redquark.org/dsa/arrays)                          | Also discusses dynamic arrays |
+| 2      | Singly Linked List | [Singly Linked List](https://redquark.org/dsa/singly-linked-lists) |                               |
 
 
