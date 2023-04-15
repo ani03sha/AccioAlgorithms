@@ -17,6 +17,6 @@ and solving problems in no time!
 |--------|---------------------|----------------------------------------------------------------------|----------------------------------------------------|
 | 1      | Abstract Data Types | [Abstract Data Types](https://redquark.org/dsa/abstract-data-types/) |                                                    |
 | 2      | Arrays              | [Arrays](https://redquark.org/dsa/arrays)                            | Also discusses dynamic arrays                      |
-| 3      | Linked Lists        | [Singly Linked List](https://redquark.org/dsa/linked-lists)          | Discusses Singly, Doubly and Circular linked lists |
+| 3      | Linked Lists        | [Linked List](https://redquark.org/dsa/linked-lists)                 | Discusses Singly, Doubly and Circular linked lists |
 
 
